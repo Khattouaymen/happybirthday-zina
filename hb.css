@@ -36,3 +36,51 @@ body{background-color: rgb(218, 107, 44);
 #hb{position: relative;
     left:400px;
 }
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#img1, #img2 {
+    animation: zoom 5s infinite;
+}
+
+#confetti-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#confetti-btn:hover {
+    background-color: #ff6347;
+}
+
+/* New styling for the number */
+#number {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 36px;
+    transform: translateY(-40px);
+    transition: transform 1s;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #FF4500;
+    text-shadow: 2px 2px 0 #fff, 4px 4px 3px rgba(0,0,0,0.3);
+}
+.fall {
+    transform: translateY(100px);
+}
