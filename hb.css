@@ -1,0 +1,38 @@
+body{background-color: rgb(218, 107, 44);
+    justify-content: center;
+}
+#letter{border:solid;
+    padding:2px;
+    width: 300px;
+    background-color: white;
+}
+#letter:hover{background-color: pink;
+    transition: background-color 0.6s ease;
+}
+#img1{position:relative ;
+    left:320px;
+    bottom: 500px;
+    transform: rotateZ(13deg);
+    border: solid;
+    border-radius: 150px;
+}
+#img2{position:relative ;
+    right:280px;
+    transform: rotateZ(-13deg);
+    border: solid;
+    border-radius: 150px;
+}
+#letter2{border:solid;
+    padding:2px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    bottom:380px;
+    left:320px
+}
+#letter2:hover{background-color: pink;
+    transition: background-color 0.6s ease;
+}
+#hb{position: relative;
+    left:400px;
+}
