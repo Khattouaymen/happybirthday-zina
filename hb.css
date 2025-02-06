@@ -84,3 +84,33 @@ body{background-color: rgb(218, 107, 44);
 .fall {
     transform: translateY(100px);
 }
+
+@media (max-width: 600px) {
+    body {
+        /* Adjust padding for mobile */
+        padding: 10px;
+    }
+    #confetti-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+    #number {
+        font-size: 28px;
+        transform: translateY(-20px);
+    }
+    #hb {
+        left: 0;
+        text-align: center;
+    }
+    #letter, #letter2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #img1, #img2 {
+        position: static;
+        margin: 10px auto;
+        display: block;
+        max-width: 80%;
+        transform: none;
+    }
+}
