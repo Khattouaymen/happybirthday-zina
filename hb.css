@@ -97,6 +97,8 @@ body{background-color: rgb(218, 107, 44);
     #number {
         font-size: 28px;
         transform: translateY(-20px);
+        margin-top: 20px; /* add extra space from the button */
+        display: block;
     }
     #hb {
         left: 0;
